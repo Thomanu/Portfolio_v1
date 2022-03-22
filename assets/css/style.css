@@ -186,21 +186,21 @@ img {
   color: #317773;
 }
 
-.home_container {
+.me_container {
   padding-top: 1.5rem;
   row-gap: 1.5rem;
 }
 
-.home_img {
+.me_img {
   justify-self: center;
 }
 
-.home_vector {
+.me_vector {
   position: absolute;
   opacity: 0.3;
 }
 
-.home_data {
+.me_data {
   left: 130px;
   top: 252px;
 
@@ -211,14 +211,14 @@ img {
   border-radius: 12px;
 }
 
-.home_title {
+.me_title {
   font-weight: 600;
   font-size: 3.125rem;
   color: var(--primary-color);
   padding-left: 50px;
 }
 
-.home_description {
+.me_description {
   font-weight: 500;
   font-size: 1.125rem;
   color: var(--text-color);
@@ -226,7 +226,7 @@ img {
   padding-left: 50px;
 }
 
-.home_text {
+.me_text {
   font-weight: 600;
   font-size: 1rem;
   color: var(--text-color);
@@ -234,7 +234,7 @@ img {
   padding-left: 50px;
 }
 
-.home_icons {
+.me_icons {
   display: flex;
   gap: 10px;
   padding-top: 25px;
@@ -243,7 +243,7 @@ img {
 }
 
 
-#home>div>div>p.home_description>a {
+#me>div>div>p.me_description>a {
   color: #317773;
 }
 
@@ -517,39 +517,39 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .home {
+  .me {
     padding-top: 50px;
   }
 
-  .home_description,
-  .home_text,
-  .home_title,
-  .home_icons {
+  .me_description,
+  .me_text,
+  .me_title,
+  .me_icons {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .home_text {
+  .me_text {
     font-size: 0.75rem;
   }
 
-  .home_title {
+  .me_title {
     font-size: 2rem;
   }
 
-  .home_description {
+  .me_description {
     font-size: 1rem;
   }
 
-  .home_img {
+  .me_img {
     width: 150px;
   }
 
-  .home_links {
+  .me_links {
     max-width: 22px;
   }
 
-  .home_img,
+  .me_img,
   .about_img {
     display: none;
   }
@@ -714,12 +714,12 @@ img {
     box-shadow: none;
   }
 
-  .home_container {
+  .me_container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
 
-  .home_container {
+  .me_container {
     padding-top: 8rem;
 
   
@@ -783,16 +783,16 @@ img {
     margin-right: auto;
   }
 
-  .home_container {
+  .me_container {
     column-gap: 1rem;
   }
 
-  .home_img {
+  .me_img {
     width: 350px;
     height: 350px;
   }
 
-  .home_description {
+  .me_description {
     padding-right: 8rem;
   }
 
