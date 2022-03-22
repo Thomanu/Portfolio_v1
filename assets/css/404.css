@@ -6,6 +6,17 @@ body{
   overflow: hidden;
 }
 
+
+body > h2 > a {
+  color: purple;
+  text-decoration: none;
+}
+
+return {
+  padding-bottom: 20%;
+
+}
+
 div{
   position: absolute;
   top: 0%;
@@ -32,13 +43,14 @@ h2{
   font-size: 32px;
   text-transform: uppercase;
   transform: translate(-50%, -50%);
-  display: block;
+  
   color: #ffffff;
   font-weight: 300;
   font-family: montserrat;
   text-shadow: 0px 0px 4px #12000a;
   /* animation: fadeInText 3s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite; */
 }
+
 
 #svgWrap_1,
 #svgWrap_2{
@@ -186,3 +198,4 @@ div{
   };
   
 }
+
