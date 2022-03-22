@@ -325,10 +325,10 @@ img {
 }
 
 .project_data {
-  background: rgba(196, 196, 196, 0.07);
+  background: rgba(196, 196, 196, 0.04);
   border: 0px solid rgba(0, 0, 0, 0.76);
   box-sizing: border-box;
-  box-shadow: 31px 26px 20px -4px #000000;
+  box-shadow: 31px 26px 20px -4px #00000080;
   backdrop-filter: blur(56px);
   border-radius: 24px;
   justify-self: center;
@@ -1027,7 +1027,6 @@ img {
 .project_img {
   height: 250px;
 }
-
 
 
 
