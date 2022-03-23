@@ -41,6 +41,9 @@ img {
 }
 
 
+
+
+
 h1,
 h2,
 h3,
@@ -773,7 +776,20 @@ img {
     margin-left: 6% ;
   }
   
+  #services > div > ul {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  
+
 }
+
+
+
+
+
 
 /* FIN RESPONSIVE MOBILE */
 
@@ -805,6 +821,7 @@ img {
    margin-right: 14% ;
   }
 
+
   .about_text {
     padding-top: 60px;
   }
@@ -824,13 +841,23 @@ img {
   padding-right: 12px;
   /* border-radius: 30px; */
 
+
+  
+
 }
 
 .project_text {
   color:#317773;
 }
 
-  
+.list_skill {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.3%;
+}
+
+
 }
 
 
@@ -989,7 +1016,7 @@ img {
 .list_skill {
   margin: 10px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 3.3%;
 }
 
