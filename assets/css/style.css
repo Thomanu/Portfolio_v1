@@ -25,6 +25,16 @@ input {
   font-size: 1.5rem;
 }
 
+body,
+button,
+input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+
+
 body {
   margin: 3.5rem 0 0 0;
   background-color: var(--body-color);
@@ -1035,20 +1045,40 @@ img {
  color:  var(--primary-color);
 }
 
+#projects > div > a:nth-child(1) > div > div {
+  height: 500px;
+ }
+
 #projects > div > a:nth-child(2) > div > div {
-  padding-bottom: 21%;
+ height: 500px;
 }
 
 #projects > div > a:nth-child(3) > div > div {
-  padding-bottom: 28%;
+  height: 500px;
 }
 
 #projects > div > a:nth-child(4) > div > div {
-  padding-bottom: 41%;
+  height: 500px;
 }
 
 #projects > div > a:nth-child(5) > div > div {
-  padding-bottom: 28%;
+  height: 500px;
+}
+
+#projects > div > a:nth-child(6) > div > div {
+  height: 500px;
+}
+
+#projects > div > a:nth-child(7) > div > div {
+  height: 500px;
+}
+
+#projects > div > a:nth-child(8) > div > div {
+  height: 500px;
+}
+
+#projects > div > a:nth-child(9) > div > div {
+  height: 500px;
 }
 
 .project_img {
@@ -1056,4 +1086,6 @@ img {
 }
 
 
-
+#projects > div > a:nth-child(7) > div > div > img {
+  object-fit: contain;
+}
