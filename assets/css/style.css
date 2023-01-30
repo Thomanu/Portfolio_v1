@@ -225,7 +225,7 @@ img {
 }
 
 .me_title {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 3.125rem;
   color: var(--primary-color);
   padding-left: 50px;
@@ -1090,4 +1090,14 @@ img {
   object-fit: contain;
 }
 
+
+
+#about > div > div {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#me > div > div {
+  padding-left: 30px;
+}
 
