@@ -38,9 +38,6 @@ input {
 body {
   margin: 3.5rem 0 0 0;
   background-color: var(--body-color);
-  /* background-image: url("../img/layer1.svg"); */
-  /* background-size: contain;
-background-repeat: no-repeat; */
   color: var(--text-color);
   transition: 0.4s;
 
@@ -225,8 +222,8 @@ img {
 }
 
 .me_title {
-  font-weight: bold;
-  font-size: 3.125rem;
+  font-weight: 900 !important;
+  font-size: 2.5rem;
   color: var(--primary-color);
   padding-left: 50px;
 }
@@ -289,7 +286,7 @@ img {
 
 .about_title {
   font-weight: 600;
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   color: var(--title-color);
 }
 
@@ -322,6 +319,52 @@ img {
   padding-top: 25px;
 }
 
+
+  
+  /* skills new*/
+
+
+  .skills_container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 23px;
+    
+  }
+
+  .skills_data {
+   
+    
+    justify-self: center;
+  }
+
+
+  .skills_img {
+    
+    border-radius: 25px; 
+    width: 100%;
+    height: 7vw;
+    object-fit: cover;
+  
+  }
+
+  .skills_text {
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding-left: 15px;
+    color: var(--text-color);
+  }
+
+
+    /* skills new*/
+
+
+
+
+
+    /* projects new*/
+
+
 .projects {
   padding-top: 85px;
 }
@@ -343,7 +386,7 @@ img {
   box-sizing: border-box;
   box-shadow: 31px 26px 20px -4px #00000080;
   backdrop-filter: blur(56px);
-  border-radius: 24px;
+  border-radius: 11% 11% 11% 11%;
   justify-self: center;
 }
 
@@ -355,7 +398,7 @@ img {
   
 }
 
-  
+
 
 .project_img_text {
   text-align: left;
@@ -365,11 +408,8 @@ img {
 }
 
 .project_img {
-  padding-top: 25px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
-  /* border-radius: 25px; */
+  
+  border-radius: 10% 10% 0% 0%;
   width: 100%;
   height: 15vw;
   object-fit: cover;
@@ -381,6 +421,7 @@ img {
   font-weight: 700;
   font-size: 1.125rem;
   padding-left: 15px;
+  padding-top: 15px;
   color: var(--title-color);
 }
 
@@ -388,6 +429,7 @@ img {
   font-size: 0.875rem;
   font-weight: 500;
   padding-left: 15px;
+  padding-top: 15px;
   line-height: 24px;
   color: var(--text-color);
 }
@@ -398,60 +440,14 @@ img {
 
 .project_box {
   text-align: center;
+  border-radius: 0% 0% 11% 11%;
 }
 
-.services_title {
-  padding-top: 100px;
-  font-weight: 600;
-  font-size: 3.125rem;
-  color: var(--title-color);
-  justify-self: center;
-}
 
-.services_pont {
-  color: var(--primary-color);
-}
 
-.services_container {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  padding-top: 50px;
-  padding-bottom: 85px;
-  /* justify-items: center; */
-}
+    /* projects new*/
 
-.services_services {
-  background: rgba(196, 196, 196, 0.07);
-  border: 1px solid rgba(196, 196, 196, 0.76);
-  box-sizing: border-box;
-  backdrop-filter: blur(56px);
-  border-radius: 12px;
-  padding: 65px 25px 55px 25px;
-}
 
-.services_div {
-  text-align: center;
-  justify-self: center;
-}
-
-.services_text {
-  padding-top: 20px;
-  padding-bottom: 25px;
-  font-weight: 700;
-  font-size: 1.875rem;
-  color: var(--title-color);
-}
-
-.services_description {
-  font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 30px;
-  text-align: center;
-  color: var(--text-color);
-}
 
 .footer {
  
@@ -607,6 +603,30 @@ img {
     grid-template-columns: 1fr;
   }
 
+
+  /* skills */
+
+  .skills_container {
+    grid-template-columns: 1fr;
+  }
+
+
+  .skills_img {
+    
+    border-radius: 25px; 
+    width: 100%;
+    height: 25vw;
+    object-fit: contain;
+  
+  }
+
+ .skills_data {
+    max-width: 100px;
+  }
+
+  /* skills*/
+
+
   .project_title {
     font-size: 2rem;
   }
@@ -623,17 +643,17 @@ img {
     max-width: 300px;
   }
 
+ 
+
+
   .project_img_text {
     padding-right: 15px;
     padding-bottom: 20px;
   }
 
   .project_img {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 12px;
-    padding-right: 12px;
-    /* border-radius: 25px; */
+    
+    border-radius: 10% 10% 0% 0%;
   }
 
   .services_title {
@@ -845,15 +865,8 @@ img {
   }
 
 .project_img {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
-  /* border-radius: 30px; */
-
-
-  
-
+ 
+   border-radius: 11% 11% 0% 0%;
 }
 
 .project_text {
