@@ -766,12 +766,19 @@ img {
 
   .skill_title {
     font-size: 2rem;
+    padding-bottom: 10px;
   
   }
+
+ .skills {
+  padding-top: 40px;
+ }
 
   .project_text {
     font-size: 1rem;
   }
+
+
 
   .project_description {
     font-size: 0.875rem;
