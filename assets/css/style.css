@@ -662,6 +662,11 @@ img {
 
   
 
+  #me > div > div {
+    padding-left: 0px;
+  }
+
+
   .me {
     padding-top: 50px;
   }
@@ -775,10 +780,12 @@ img {
     font-size: 0.875rem;
   }
 
+
+    /* skills
   .project_data {
     max-width: 300px;
   }
-
+  /* skills*/
  
 
 
@@ -852,6 +859,9 @@ img {
     margin-bottom: 20px;
     right: 15px;
   }
+
+
+
 
 
 
