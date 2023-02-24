@@ -861,13 +861,6 @@ img {
   }
 
 
-  .container {
-    background-color: var(--body-color);
-    max-width: 1200px;
-    margin-left: 1.5rem;
-    margin-right: 0rem;
-    transition: 0.4s;
-  }
 
 
 
