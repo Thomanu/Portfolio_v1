@@ -314,12 +314,13 @@ img {
 .about_data {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 85px;
+  margin-top: 85px;
 }
 
 .about_img {
   justify-self: right;
   border-radius: 200px;
+
 }
 
 .about_text {
@@ -402,6 +403,14 @@ img {
    
   }
 
+  .skills {
+    padding-top: 85px;
+  }
+
+  .skill_box {
+    text-align: center;
+   
+  }
 
     /* skills new*/
 
@@ -415,6 +424,8 @@ img {
 .projects {
   padding-top: 85px;
 }
+
+
 
 .project_title {
   font-weight: 600;
