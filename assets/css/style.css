@@ -240,7 +240,7 @@ img {
 }
 
 .me_title {
-  font-weight: 900 !important;
+
   font-size: 2.5rem;
   color: var(--primary-color);
   padding-left: 50px;
@@ -381,12 +381,9 @@ img {
 
 
   .skills_img {
-    
     border-radius: 25px; 
-   
-    height: 100px;
+    height: 80px;
     object-fit: cover;
-  
   }
 
   .skills_text {
@@ -415,14 +412,11 @@ img {
     /* skills new*/
 
 
-
-
-
     /* projects new*/
 
 
 .projects {
-  padding-top: 85px;
+  margin-top: 85px;
 }
 
 
@@ -432,6 +426,15 @@ img {
   font-size: 3.125rem;
   color: var(--title-color);
   justify-self: center;
+ 
+}
+
+.skill_title {
+  font-weight: 600;
+  font-size: 3.125rem;
+  color: var(--title-color);
+  justify-self: center;
+  padding-bottom: 40px;
 }
 
 .project_pont {
@@ -456,8 +459,6 @@ img {
   
 }
 
-
-
 .project_img_text {
   text-align: left;
   display: flex;
@@ -475,7 +476,6 @@ img {
   object-fit: cover;
 
 }
-
 
 .project_text {
   font-weight: 700;
@@ -501,11 +501,7 @@ img {
  
 }
 
-
-
     /* projects new*/
-
-
 
 .footer {
  
@@ -572,11 +568,6 @@ img {
 }
 
 
-
-
-
-
-
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
@@ -617,11 +608,7 @@ img {
   
   }
 
-  
-  
 }
-
-
 
 /* RESPONSIVE MOBILE */
 
@@ -644,7 +631,6 @@ img {
 
  
 .float-child {
- 
   width: 400px !important;
   display: flex;
   flex-direction: row;
@@ -653,10 +639,7 @@ img {
 
 
 .skill-bars {
-  
   width: 250px !important;
- 
-
 }
   
   #projects > div {
@@ -669,7 +652,6 @@ img {
   #services > div > ul {
     display: flex;
     flex-direction: column;
-   
   }
 
   
@@ -763,7 +745,6 @@ img {
     grid-template-columns: 1fr;
   }
 
-
   .skills_img {
     
     border-radius: 25px; 
@@ -779,9 +760,13 @@ img {
 
   /* skills*/
 
-
   .project_title {
     font-size: 2rem;
+  }
+
+  .skill_title {
+    font-size: 2rem;
+  
   }
 
   .project_text {
@@ -792,22 +777,12 @@ img {
     font-size: 0.875rem;
   }
 
-
-    /* skills
-  .project_data {
-    max-width: 300px;
-  }
-  /* skills*/
- 
-
-
   .project_img_text {
     padding-right: 15px;
     padding-bottom: 20px;
   }
 
   
-
   .services_title {
     font-size: 2rem;
   }
@@ -869,18 +844,9 @@ img {
     right: 15px;
   }
 
-
-
-
-
-
 }
 
-
 /* FIN RESPONSIVE MOBILE */
-
-
-
 
 /* DEBUT DESKTOP RESPONSIVE */
 
@@ -935,11 +901,7 @@ img {
 
 }
 
-
 /* FIN DESKTOP RESPONSIVE */
-
-
-
 
 #projects>h2:nth-child(1) {
   padding-bottom: 6%;
@@ -952,15 +914,9 @@ img {
 }
 
 
-
-
-
 .nav_logo-img {
   width: 5.3rem;
 }
-
-
-
 
 #projects > div > a:nth-child(1) > div > div,
 #projects > div > a:nth-child(2) > div > div,
@@ -984,6 +940,3 @@ img {
 #projects > div > a:nth-child(7) > div > div > img {
   object-fit: contain;
 }
-
-
-
