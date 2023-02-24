@@ -652,6 +652,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-left: 6% ;
+    margin-right: 6% ;
   }
   
   #services > div > ul {
@@ -794,10 +795,7 @@ img {
     padding-bottom: 20px;
   }
 
-  .project_img {
-    
-    border-radius: 10% 10% 0% 0%;
-  }
+  
 
   .services_title {
     font-size: 2rem;
